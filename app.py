@@ -11,7 +11,6 @@ st.set_page_config(page_title="UK CV Writer", page_icon="📄", layout="centered
 st.markdown("""
 # 🇬🇧 UK CV Writer
 Create tailored, ATS-optimised CVs and cover letters with AI – for UK job roles.
-
 """)
 
 # === EXAMPLE INPUTS ===
@@ -90,3 +89,4 @@ Respond in this format:
             st.error(f"❌ Error: {e}")
 else:
     st.info("Fill in both fields and click the button to generate your documents.")
+
